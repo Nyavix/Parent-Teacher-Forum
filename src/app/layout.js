@@ -5,8 +5,14 @@ export const metadata = {
   title: `${SCHOOL.name} — Parent-Teacher Conference`,
   description: `Book your parent-teacher conference appointment at ${SCHOOL.name}. Schedule a 10-minute meeting with your child's teacher.`,
   icons: {
-    icon: SCHOOL.logo,
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({ children }) {

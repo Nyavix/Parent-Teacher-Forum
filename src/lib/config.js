@@ -11,7 +11,7 @@ export const SCHOOL = {
 };
 
 // Conference date — update this each year/term
-export const CONFERENCE_DATE = "2026-04-16"; // YYYY-MM-DD format
+export const CONFERENCE_DATE = "2026-04-09"; // YYYY-MM-DD format
 
 export const TEACHERS = [
   {
